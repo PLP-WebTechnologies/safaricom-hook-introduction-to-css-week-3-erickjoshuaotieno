@@ -1,0 +1,38 @@
+/* External CSS */
+body {
+    background-color: lightgray;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+/* Styling for card component */
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+}
